@@ -1,0 +1,33 @@
+h1 {
+margin-bottom: 20px;
+color: cornflowerblue;	
+text-align: center;
+}
+h2 {
+color: cornflowerblue;
+font-family: 'Times New Roman', Times, serif;	
+}
+h3:hover	{
+font-size: 150%;
+}
+h3	{
+color:#FF8C00;
+}
+h4, p, .terms	{
+color :white;
+}
+
+.inputs {
+    width: auto; /*width of the input boxes*/
+    border: 2px solid #808080; /* */
+    border-radius: 7px; /*gives the curved edges*/
+    text-align: center;
+}
+
+.input-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rsvp {
+    text-align: center;
+}
