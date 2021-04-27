@@ -13,21 +13,21 @@ font-size: 150%;
 h3	{
 color:#FF8C00;
 }
-h4, p, .terms	{
-color :white;
-}
-
-.inputs {
-    width: auto; /*width of the input boxes*/
-    border: 2px solid #808080; /* */
-    border-radius: 7px; /*gives the curved edges*/
-    text-align: center;
-}
-
-.input-box {
-    margin-top: 10px;
-    margin-bottom: 10px;
+h4, p {
+    color: white;
 }
 .rsvp {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: auto;
     text-align: center;
+    color: white;
+}
+
+.input-tag {
+    width: auto;
+    border: 5px solid #808080;
+    border-radius: 7px;
+    text-align: center;
+    margin: 10px;
 }
