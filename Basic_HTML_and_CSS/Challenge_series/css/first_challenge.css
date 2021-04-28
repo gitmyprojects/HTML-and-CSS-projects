@@ -1,0 +1,12 @@
+body{
+    background-color: burlywood;
+}
+
+.img {
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    filter: sepia();
+    border-radius: 15%;
+}
