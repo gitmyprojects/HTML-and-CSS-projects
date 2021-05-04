@@ -1,6 +1,6 @@
 # HTML-and-CSS-projects
 
-This repository is comprised of various projects both big and small. The small projects were pushed so that the instructors could monitor progress. The bigger projects  are examples of applying the various elements learned through the course. 
+This repository is comprised of various projects both big and small. The small projects were pushed so that the instructors could monitor progress. The bigger projects  are examples of applying the various elements, structures, and techniques learned through the course. 
 
 The [Basic_HTML_and_CSS](https://github.com/gitmyprojects/HTML-and-CSS-projects/tree/main/Basic_HTML_and_CSS) directory files were practice with the basic structure of HTML and CSS documents. After practicing the basic structure, I learned various styles and framing of documents such as Tables, Lists, and the text-shadow element among others.
 
