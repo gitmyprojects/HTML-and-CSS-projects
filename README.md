@@ -5,3 +5,5 @@ This repository will contain the the projects that I work on as I learn HTML and
 The projects will be completed by me and submitted for review by The Tech Academy.
 
 ***DO NOT SPEND TOO MUCH TIME TRYING TO OPTIMIZE THE CODE!! STAY ON TRACK!
+
+I will update this readme file when i clean up the repository. 
