@@ -1,9 +1,13 @@
 # HTML-and-CSS-projects
-Assembly of projects as directed by The Tech Academy
 
-This repository will contain the the projects that I work on as I learn HTML and CSS.
-The projects will be completed by me and submitted for review by The Tech Academy.
+This repository is comprised of various projects both big and small. The small projects were pushed so that the instructors could monitor progress. The bigger projects  are examples of applying the various elements learned through the course. 
 
-***DO NOT SPEND TOO MUCH TIME TRYING TO OPTIMIZE THE CODE!! STAY ON TRACK!
+The "Basic_HTML_and_CSS" directory files were practice with the basic structure of HTML and CSS documents. After practicing the basic structure, I learned various styles and framing of documents such as Tables, Lists, and the text-shadow element among others.
 
-I will update this readme file when i clean up the repository. 
+The "Basic_HTML_and_JavaScript_1" directory is an introduction in applying JavaScript to and HTML document. 
+
+The "One_Page_Website" directory is one complete project including CSS and Images along with the HTML document. The one page website created is practice is using ID's, links, embedding videos, adding a "Contact" section to a site, and various other navigation and organization techniques. 
+
+The "VS_Assignment" directory is an introduction into using Visual Studio. In Visual Studio I created a website called "Space Station" that utilizes more visually appealing and interactive techniques such as a menu, image overlays, and animations. 
+
+The "bootstrap4_project" is a webpage that utilizes boostrap for formatting. Once the framework was implimented, I customized the code to create pills, cards, search bar, and a customized colors to create an organized and professional looking page. 
