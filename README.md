@@ -10,4 +10,4 @@ The [One_Page_Website](https://github.com/gitmyprojects/HTML-and-CSS-projects/tr
 
 The [VS_Assignment](https://github.com/gitmyprojects/HTML-and-CSS-projects/tree/main/VS_Assignment) directory is an introduction into using Visual Studio. In Visual Studio I created a website called "Space Station" that utilizes more visually appealing and interactive techniques such as a menu, image overlays, and animations. 
 
-The [bootstrap4_project](https://github.com/gitmyprojects/HTML-and-CSS-projects/tree/main/boostrap4_project) is a webpage that utilizes boostrap for formatting. Once the framework was implimented, I customized the code to create pills, cards, search bar, and a customized colors to create an organized and professional looking page. 
+The [bootstrap4_project](https://github.com/gitmyprojects/HTML-and-CSS-projects/tree/main/bootstrap4_project) is a webpage that utilizes boostrap for formatting. Once the framework was implimented, I customized the code to create pills, cards, search bar, and a customized colors to create an organized and professional looking page. 
