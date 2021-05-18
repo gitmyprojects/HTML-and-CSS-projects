@@ -25,6 +25,8 @@
               <li class="nav-item active">
                 <a class="nav-link text-light" href="#showtimes" id="link">Showtimes</a>
               </li>
+              <li class="nav-item active">
+                <a class="nav-link text-light" href="#coming_soon" id="link">Coming Soon</a>
 
               <!-------This section came with the bootstrap template------->
               <li class="nav-item dropdown">
@@ -38,7 +40,7 @@
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
               </li>
-              <!-------This section came with the bootstrap template------->
+              <!------- ond of This section came with the bootstrap template------->
 
               <li class="nav-item active">
                 <a class="nav-link text-light" href="#deals">Deals</a>
@@ -155,6 +157,84 @@
 
         <!---  End of showtimes -->
 
+        <!---  Coming Soon Collapse Component  -->
+        <h3 id="coming_soon" style="padding-top: 10px; padding-bottom: 10px;">Coming Soon!</h3>
+        <div id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="card">
+            <div class="card-header" role="tab" id="headingOne">
+              <h5 class="mb-0">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Mortal Kombat
+                </a>
+              </h5>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+              <div class="card-block">
+                Directed by: Simon McQuoid
+Starring: Joe Taslim, Ludi Lin, Mechad Brooks, Lewis Tan, Elissa Cadwell, Ng Chin Han, Max Huang, Josh Lawson, Jessica McNamee, Hiroyuki Sanada, Sisi Stringer
+Opening on: April 23, 2021 (formerly January 15, 2021), with simultaneous release on HBO Max
+
+
+If you’ve been waiting for the inevitable Mortal Kombat reboot, 2021 has got you covered. With Lewis Tan, Mechad Brooks, and Joe Taslim attached to star, the newest franchise installment is bound to be everything you could want in a fantasy martial arts action film. James Wan will be producing, so there’s bound to be some of the magic that made the Saw franchise so successful.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" role="tab" id="headingTwo">
+              <h5 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Spiral: From the Book of Saw
+                </a>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="card-block">
+                Directed by: Darren Lynn Bousman
+Starring: Chris Rock, Samuel L. Jackson, Max Minghella, Marisol Nichols
+Opening on: May 14, 2021 (formerly May 21, 2021)
+
+
+The Saw franchise officially gets revived in this new thriller, with Darren Lynn Bousman (Saw II, III, and IV) back behind the camera. This time, two cops played by Chris Rock and Samuel L. Jackson investigate a series of gruesome murders and find themselves at the mercy of a killer reminiscent of the past (Jigsaw copycat, anyone?).
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" role="tab" id="headingThree">
+              <h5 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Black Widow
+                </a>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="card-block">
+                Directed by: Cate Shortland
+                Starring: Scarlett Johansson, Florence Pugh, David Harbour, Rachel Weisz
+                Opening on: July 9, 2021 (formerly November 6, 2020) with Premier Access on Disney+
+                
+                
+                The first Marvel property to kick off its Phase 4 (on the big screen, at least) will be this prequel focusing on Scarlett Johansson’s Natasha Romanoff. The story takes place after the events of Captain America: Civil War and follows Natasha as she deals with dangerous people from her past as a double agent. David Harbour, Rachel Weisz, and Florence Pugh co-star, and who knows? Maybe Jeremy Renner’s Hawkeye will make an appearance.
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---  End oF Coming Soon Collapse Component  -->
+
+        <!---  Jumbotron heading -->
+        <div class="jumbotron jumbotron-fluid bg-info mt-5 text-center">
+          <div class="container">
+            <h1 class="display-4 hidden-sm-down" style="color:fff;font-family:roboto;font-weight:900;text-transform:uppercase;">
+            Movie Deals</h1>
+            <p class="lead">Check out our monthly deals...</p>
+            <!--movie deals-->
+            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#register">see our monthly movie deals</button>
+            <!--/ movie deals-->
+          </div>
+        </div>
+        <!--- End of Jumbotron heading -->
 
         <div class="text-center" id="deals">
           <form>
@@ -162,9 +242,55 @@
             <div class="form-group">
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="Submit your e-mail to receive great movie rewards!">
+              Sign-Up!</button>
           </form>
         </div>
+
+        <!---Form Modal-->
+          <div class="modal fade" id="register">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Register to receive movie deals</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+
+                <form>
+                  <fieldset class="form-group">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" class="form-control" id="firstname" placeholder="First Name...">
+                  </fieldset>
+                  <fieldset class="form-group">
+                    <label for="lasttname">Last Name:</label>
+                    <input type="text" class="form-control" id="lastname" placeholder="Last Name...">
+                  </fieldset>
+                  <fieldset class="form-group">
+                    <label for="email">E-Mail:</label>
+                    <input type="text" class="form-control" id="email" placeholder="Email...">
+                  </fieldset>
+                  <fieldset class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="text" class="form-control" id="password" placeholder="Password...">
+                  </fieldset>
+                </form>    
+
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--- end of Form Modal-->
+
         <div class="container my-5">
           <ul class="nav nav-inline">
             <li class="nav-item">
@@ -187,8 +313,15 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <script>
+            $('.popover-dismiss').popover({
+        trigger: 'focus'
+      })
+    </script>
   </body>
 </html>
