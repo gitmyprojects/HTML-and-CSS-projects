@@ -1,0 +1,75 @@
+		<!-- Gallary -->
+		<section>
+			<div id="gallary">
+				<h1>Gallary</h1>
+				<div>
+					
+					<!-- PHOTO-CONTAINER 1 -->
+					<div>
+						<div id="chris_distefano">
+							<img src="./images/image_1.jpg" alt="this image has moved or been deleted" width="300" height="300">
+							<div>
+								<a href="#chris_distefano_vid" id="link"><h3>See Him In A Different Way</h3></a>
+							</div>
+						</div>
+					</div>
+					<!-- End of PHOTO-CONTAINER 1 -->
+					
+					<!-- PHOTO-CONTAINER 2 -->
+					<div>
+						<div id="jessica_kirson">
+							<img src="./images/image_2.jpeg" alt="this image has moved or been deleted" width="300" height="300">
+							<div>
+								<a href="#jessica_kirson_vid" id="link"><h3>Hear her squawk</h3></a>
+							</div>
+						</div>
+					</div>
+					<!-- End of PHOTO-CONTAINER 2 -->
+					
+					<!-- PHOTO-CONTAINER 3 -->
+					<div>
+						<div id="andrew_santino">
+							<img src="./images/image_6.jpg" alt="this image has moved or been deleted" width="300" height="300">
+							<div>
+								<a href="#andrew_santino_vid" id="link"><h3>What does the Cheeto say?</h3></a>
+							</div>
+						</div>
+					</div>
+					<!-- End of PHOTO-CONTAINER 3 -->
+					
+					<!-- PHOTO-CONTAINER 4 -->
+					<div>
+						<div id="john_mulaney">
+							<img src="./images/image_3.jpg" alt="this image has moved or been deleted" width="300" height="300">
+							<div>
+								<a href="#john_mulaney_vid" id="link"><h3>He hears you; hear him here</h3></a>
+							</div>
+						</div>
+					</div>
+					<!-- End of PHOTO-CONTAINER 4 -->
+					
+					<!-- PHOTO-CONTAINER 5 -->
+					<div>
+						<div id="jim_gaffigan">
+							<img src="./images/image_5.jpg" alt="this image has moved or been deleted" width="300" height="300">
+							<div>
+								<a href="#jim_gaffigan_vid" id="link"><h3>Why's he whispering?</h3></a>
+							</div>
+						</div>
+					</div>
+					<!-- End of PHOTO-CONTAINER 5 -->
+					
+					<!-- PHOTO-CONTAINER 6 -->
+					<div>
+						<div id="louis_ck">
+							<img src="./images/image_4.jpg" alt="this image has moved or been deleted" width="300" height="300">
+							<div>
+								<a href="#louis_ck_vid" id="link"><h3>He shouldn't have said that</h3></a>
+							</div>
+						</div>
+					</div>
+					<!-- End of PHOTO-CONTAINER 6 -->
+				</div>
+			</div>
+		</section>
+		<!-- End of Gallary -->
